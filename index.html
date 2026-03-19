@@ -121,10 +121,15 @@
   .nav-tabs {
     background: #111;
     border-bottom: 2px solid var(--border);
-    padding: 0 32px;
+    padding: 0;
     display: flex;
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     gap: 0;
   }
+  .nav-tabs::-webkit-scrollbar { display: none; }
   .tab-btn {
     background: none;
     border: none;
@@ -137,6 +142,7 @@
     margin-bottom: -2px;
     transition: all 0.15s;
     white-space: nowrap;
+    flex-shrink: 0;
   }
   .tab-btn:hover { color: var(--text); }
   .tab-btn.active {
