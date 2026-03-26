@@ -451,7 +451,7 @@
   <div class="header-title">
     <div class="eyebrow">Montana Psychiatric Hospital Reference</div>
     <h1>State Psychiatric Hospital Laws &amp; Regulations</h1>
-    <div class="subtitle">MCA Title 53, Chapter 21 (Parts 1 &amp; 6) · ARM 37.106.3 &amp; 37.106.4</div>
+    <div class="subtitle">MCA Title 53, Chapter 21 (Parts 1 &amp; 6) · ARM 37.106.3 &amp; 37.106.4 · ARM 37.66.1–3</div>
   </div>
 
 </header>
@@ -479,6 +479,9 @@
   </button>
   <button class="tab-btn" onclick="switchTab('arm4', this)">
     <span class="tab-label">ARM 37.106.4</span>Hospital Standards
+  </button>
+  <button class="tab-btn" onclick="switchTab('arm66', this)">
+    <span class="tab-label">ARM 37.66.1–3</span>MSH Admissions
   </button>
 </div>
 
@@ -525,6 +528,11 @@
             <div class="oc-label">ARM 37.106.4</div>
             <h3>Minimum Standards for a Hospital</h3>
             <p>General requirements, medical records, laboratories, organ donation, specialty care units, and hospital-specific licensing rules.</p>
+          </div>
+          <div class="overview-card arm" onclick="switchTab('arm66', document.querySelectorAll('.tab-btn')[5])">
+            <div class="oc-label">ARM 37.66.1–3</div>
+            <h3>MSH Admissions — Mental Health Inpatient Facilities</h3>
+            <p>Admission policy, criteria, and procedures; documentation requirements for civil and forensic admission; voluntary admission parameters and screening for MSH.</p>
           </div>
         </div>
         <div class="note-box" style="margin-top:16px;">
@@ -1213,6 +1221,375 @@
           <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">NEW 2013 · AUTH: 50-5-103, 50-5-245, MCA; IMP: 50-5-111, 50-5-201, 50-5-202, 50-5-203, 50-5-204, 50-5-207, 50-5-245, 50-5-246, MCA</p>
         </div>
       </div>
+    </div>
+
+    <!-- ARM 37.66.1–3 TAB -->
+    <div class="tab-pane" id="tab-arm66">
+      <div class="part-divider"><div class="part-divider-line"></div><div class="part-divider-label">ARM 37.66 — Mental Health Inpatient Facilities: MSH Admissions</div><div class="part-divider-line"></div></div>
+
+      <div class="note-box" style="margin-bottom:24px;">
+        <strong>Scope:</strong> ARM 37.66 governs admissions policy and procedures specifically for the Montana State Hospital (MSH) and other mental health inpatient facilities. Subchapter 1 covers general admission policy; Subchapter 2 covers documentation requirements; Subchapter 3 covers voluntary admissions to MSH.
+      </div>
+
+      <!-- ── SUBCHAPTER 1 ── -->
+      <div class="part-divider"><div class="part-divider-line"></div><div class="part-divider-label">Subchapter 1 — Admission Policy for Mental Health Inpatient Facilities</div><div class="part-divider-line"></div></div>
+
+      <div class="arm-rule" id="a-37-66-101">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.101</div>
+          <div class="arm-title">Purpose</div>
+        </div>
+        <div class="arm-body">
+          <p>The purpose of this subchapter is to establish policies and procedures for admissions to mental health inpatient facilities licensed or operated by the Montana Department of Public Health and Human Services, including the Montana State Hospital at Warm Springs, to ensure that admissions are consistent with applicable state law and that persons are placed in the least restrictive appropriate setting.</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AUTH: 53-21-402, 53-21-411, MCA; IMP: 53-21-411, 53-21-414, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-102">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.102</div>
+          <div class="arm-title">Definitions</div>
+        </div>
+        <div class="arm-body">
+          <p>As used in this subchapter, the following definitions apply:</p>
+          <div class="subsection" style="margin-top:10px;"><p><span class="def-term">"Court of competent jurisdiction"</span> means a court having authority over the subject matter of civil commitment for treatment of a mental disorder and personal jurisdiction over the patient. In Montana, courts of competent jurisdiction are: (a) state district courts, for all persons found within the state except members of an Indian tribe as described in (b); and (b) tribal courts in Montana, for a tribal member physically located within the boundaries of the tribal member's reservation of enrollment at the time of commitment.</p></div>
+          <div class="subsection"><p><span class="def-term">"Superintendent"</span> means the superintendent of MSH or the superintendent's designee.</p></div>
+          <div class="subsection"><p><span class="def-term">"MSH"</span> means the Montana State Hospital located at Warm Springs, Montana.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AUTH: 53-21-402, 53-21-411, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-103">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.103 through 37.66.105</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-106">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.106</div>
+          <div class="arm-title">Admission Criteria</div>
+        </div>
+        <div class="arm-body">
+          <p>To be eligible for admission to a mental health inpatient facility, an individual must meet all applicable criteria established by statute and these rules. Priority admissions are established for persons whose clinical needs are most acute. Except for priority admissions, the facility will admit applicants from the waiting list on the basis of the date of determination of eligibility for admission as beds become available.</p>
+          <div class="subsection" style="margin-top:10px;"><p>The superintendent may waive the use of the waiting list if: (a) the location of an available bed requires that the next person admitted be of a particular sex; or (b) there is an applicant whose current living conditions require that they be admitted immediately.</p></div>
+          <div class="subsection"><p>When two or more applicants have equal priority on the waiting list, the person with the longest documented Montana residence will be admitted first.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AMD 1987 · AUTH: 53-21-402, 53-21-411, MCA; IMP: 53-21-411, 53-21-414, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-107">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.107</div>
+          <div class="arm-title">Application Procedures</div>
+        </div>
+        <div class="arm-body">
+          <p>Applications for admission to MSH may be initiated through the following pathways:</p>
+          <div class="subsection" style="margin-top:10px;"><p><span class="subsection-label">(a)</span>Contacting the community mental health center serving the region where the person is located to arrange for evaluation and, if appropriate, a referral to MSH;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(b)</span>Contacting MSH directly for an emergency detention;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(c)</span>Submitting an application for voluntary admission to MSH under 53-21-111, MCA and ARM 37.66.306;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(d)</span>Requesting the county attorney to file a petition for involuntary civil commitment to MSH under Title 53, Chapter 21, MCA; or</p></div>
+          <div class="subsection"><p><span class="subsection-label">(e)</span>Filing or requesting tribal authorities to file a petition for involuntary civil commitment to MSH under applicable tribal law.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AUTH: 53-21-601, MCA; NEW, 2012 MAR p. 2379, Eff. 1/1/13</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-108">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.108</div>
+          <div class="arm-title">Application Materials</div>
+        </div>
+        <div class="arm-body">
+          <p>Before admitting a criminal defendant committed under any provision of Title 46, Chapter 14, MCA, MSH must collect information and records, including both physical and psychiatric medical information, sufficient to evaluate the immediate treatment needs of the patient, and must consult with outpatient providers and criminal justice authorities to coordinate patient care during the admission process.</p>
+          <p style="margin-top:8px;">For all admissions, application materials must include documentation of legal authority to admit as specified in ARM 37.66.207, together with any clinical records, prior treatment history, and information relevant to the individual's current mental status and treatment needs.</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · NEW, 2012 MAR p. 2379, Eff. 1/1/13</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-109">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.109</div>
+          <div class="arm-title">Admissions Procedures</div>
+        </div>
+        <div class="arm-body">
+          <p>MSH shall process admission requests in accordance with the following procedures:</p>
+          <div class="subsection" style="margin-top:10px;"><p>MSH may not admit any person for evaluation, custody, care, or treatment without having received documentation that the admission is voluntary or that other legal authority exists to admit the person, as set forth in ARM 37.66.207.</p></div>
+          <div class="subsection"><p>Upon receipt of complete documentation, MSH shall evaluate bed availability and clinical appropriateness and notify the referring party of the admission date and time.</p></div>
+          <div class="subsection"><p>In emergency situations, MSH may accept preliminary documentation by fax subject to the conditions in ARM 37.66.207(3).</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AUTH: 53-1-603, 53-21-601, MCA; IMP: 53-1-601, 53-21-101, 53-21-601, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-110">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.110 through 37.66.114</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-115">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.115</div>
+          <div class="arm-title">Treatment</div>
+        </div>
+        <div class="arm-body">
+          <p>Treatment provided at MSH focuses on maintaining the resident's physical and mental functioning to the extent possible, providing active psychiatric treatment, and facilitating the earliest appropriate return to community-based care consistent with the facility's statutory mission under § 53-21-601, MCA.</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 2/28/1986 · AUTH: 53-21-402, 53-21-411, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-116">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.116 through 37.66.119</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-120">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.120</div>
+          <div class="arm-title">Transfer and Discharge Criteria</div>
+        </div>
+        <div class="arm-body">
+          <p>A patient may be transferred from MSH or discharged when the patient no longer meets inpatient admission criteria, when a less restrictive placement is appropriate and available, or when the legal basis for the admission has expired or been vacated by the court. Transfer and discharge planning must comply with MCA §§ 53-21-180 through 53-21-187 (discharge plan, conditional release, and community aftercare requirements).</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AUTH: 53-21-402, 53-21-411, MCA; IMP: 53-21-411, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-121">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.121 through 37.66.129</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-130">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.130</div>
+          <div class="arm-title">Appeal Procedure</div>
+        </div>
+        <div class="arm-body">
+          <p>A patient who has been involuntarily discharged from MSH may appeal the discharge decision to the director of the department. Pending a timely appeal, the patient may be transferred pursuant to ARM 37.66.120 or allowed to remain at MSH until the final decision of the director. The appeal procedure must comply with applicable administrative hearing requirements under ARM Title 37, Chapter 5.</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 5/24/1996 · AUTH: 53-21-402, 53-21-411, MCA; IMP: 53-21-411, MCA</p>
+        </div>
+      </div>
+
+      <!-- ── SUBCHAPTER 2 ── -->
+      <div class="part-divider" style="margin-top:32px;"><div class="part-divider-line"></div><div class="part-divider-label">Subchapter 2 — Documentation for Admission to Montana State Hospital</div><div class="part-divider-line"></div></div>
+
+      <div class="arm-rule" id="a-37-66-201">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.201</div>
+          <div class="arm-title">Definitions</div>
+        </div>
+        <div class="arm-body">
+          <p>As used in this subchapter:</p>
+          <div class="subsection" style="margin-top:10px;"><p><span class="def-term">"MSH"</span> means the Montana State Hospital, Warm Springs, Montana.</p></div>
+          <div class="subsection"><p><span class="def-term">"Court of competent jurisdiction"</span> means a court having authority over the subject matter of civil commitment or criminal proceedings and personal jurisdiction over the patient — in Montana, a state district court for all persons within the state (except tribal members on their reservation, for whom the relevant tribal court applies).</p></div>
+          <div class="subsection"><p><span class="def-term">"Preadmission documentation"</span> means the records and materials required to be assembled and transmitted to MSH prior to or at the time of admission, as specified in ARM 37.66.203 (civil) and ARM 37.66.205 (forensic).</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 1/1/2013 · AUTH: 53-1-603, 53-21-601, MCA; IMP: 53-1-601, 53-21-101, 53-21-601, MCA; NEW, 2012 MAR p. 2379</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-202">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.202</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-203">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.203</div>
+          <div class="arm-title">Preadmission Documentation: Civil</div>
+        </div>
+        <div class="arm-body">
+          <p>Prior to or at the time of a civil admission to MSH, the referring party must transmit to MSH the documentation required to establish legal authority to admit (per ARM 37.66.207), together with:</p>
+          <div class="subsection" style="margin-top:10px;"><p>Current psychiatric evaluation and diagnosis;</p></div>
+          <div class="subsection"><p>Relevant medical history and current medications;</p></div>
+          <div class="subsection"><p>Information regarding prior mental health treatment, including prior admissions to MSH or other inpatient facilities;</p></div>
+          <div class="subsection"><p>Documentation of community treatment options considered and the reasons they were found to be inadequate or unavailable; and</p></div>
+          <div class="subsection"><p>Any court orders, petitions, or other legal documents pertaining to the admission.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 1/1/2013 · AUTH: 53-1-603, 53-21-601, MCA; IMP: 53-1-601, 53-21-101, 53-21-601, MCA; NEW, 2012 MAR p. 2379</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-204">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.204</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-205">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.205</div>
+          <div class="arm-title">Preadmission Documentation: Forensic</div>
+        </div>
+        <div class="arm-body">
+          <p>Before admitting a criminal defendant committed under any provision of Title 46, Chapter 14, MCA, MSH must collect information and records sufficient to evaluate the immediate treatment needs of the patient. The following preadmission documentation is required for all forensic admissions:</p>
+          <div class="subsection" style="margin-top:10px;"><p>A certified copy of the court order committing the person under Title 46, Chapter 14, MCA (for evaluation, competency restoration, or post-NGRI commitment);</p></div>
+          <div class="subsection"><p>Current psychiatric and medical evaluation;</p></div>
+          <div class="subsection"><p>Relevant criminal history and current charges;</p></div>
+          <div class="subsection"><p>Physical and psychiatric medical information sufficient to evaluate the immediate treatment needs of the patient; and</p></div>
+          <div class="subsection"><p>Consultation with outpatient providers and criminal justice authorities to coordinate patient care during the admission process.</p></div>
+          <div class="note-box" style="margin-top:12px;">
+            <strong>Cross-reference:</strong> Forensic commitments are governed by MCA Title 46, Chapter 14 (competency to stand trial, fitness to proceed, NGRI commitment). See ARM 37.66.207(2)(f) for the documentation of legal authority requirement specific to forensic admissions.
+          </div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 1/1/2013 · AUTH: 53-1-603, 53-21-601, MCA; IMP: 53-1-601, 53-21-101, 53-21-601, MCA; NEW, 2012 MAR p. 2379</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-206">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.206</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-207">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.207</div>
+          <div class="arm-title">Documentation of Legal Authority to Admit — Preliminary Documentation by Fax</div>
+        </div>
+        <div class="arm-body">
+          <div class="subsection"><p><span class="subsection-label">(1)</span>MSH may not admit any person for evaluation, custody, care, or treatment without having received documentation that the admission is voluntary or that other legal authority exists to admit the person.</p></div>
+          <div class="subsection"><p><span class="subsection-label">(2)</span>Documentation of legal authority to admit consists of:</p></div>
+          <div class="subsection"><p><span class="subsection-label">(a)</span>For voluntary admission — an original signed and witnessed application for voluntary admission as provided in 53-21-111, MCA and ARM 37.66.306;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(b)</span>For emergency detention to the next regular business day — an original signed statement from a professional person after evaluation, pursuant to 53-21-129, MCA, that the person appears to have a mental disorder and that an emergency situation exists;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(c)</span>For ten-day interinstitutional transfer — an original written request for transfer from another DPHHS institution or the Department of Corrections pursuant to 53-21-130, MCA, accepted in writing by the superintendent;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(d)</span>For court-ordered detention — a certified copy of an order from a court of competent jurisdiction authorizing temporary detention for treatment pending a commitment hearing;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(e)</span>For civil commitment — a certified copy of an order from a court of competent jurisdiction authorizing commitment for treatment of a mental disorder; or</p></div>
+          <div class="subsection"><p><span class="subsection-label">(f)</span>For forensic commitment — a certified copy of an order from a court having jurisdiction of criminal proceedings, committing the person under the provisions of Title 46, Chapter 14, MCA, for evaluation, custody, care, or treatment.</p></div>
+          <div class="subsection"><p><span class="subsection-label">(3)</span>MSH may receive preliminary documentation by fax if: (a) the quality is sufficient to determine the documentation meets the requirements of this rule (except for certification of a court order); (b) MSH is familiar with the sender and has no reason to believe the documentation is not authentic or has been altered; and (c) the sender confirms the required signed or certified original documentation will arrive at MSH (Admissions Office, P.O. Box 300, Warm Springs, MT 59756) before 4:30 p.m. on the fifth business day after the date of the fax.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 1/1/2013 · AUTH: 53-1-603, 53-21-601, MCA; IMP: 53-1-601, 53-21-101, 53-21-601, MCA; NEW, 2012 MAR p. 2379</p>
+        </div>
+      </div>
+
+      <!-- ── SUBCHAPTER 3 ── -->
+      <div class="part-divider" style="margin-top:32px;"><div class="part-divider-line"></div><div class="part-divider-label">Subchapter 3 — Voluntary Admissions to Montana State Hospital</div><div class="part-divider-line"></div></div>
+
+      <div class="arm-rule" id="a-37-66-301">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.301</div>
+          <div class="arm-title">Voluntary Admission Procedure — Purpose</div>
+        </div>
+        <div class="arm-body">
+          <p>The purpose of this subchapter is to assure that voluntary admissions to Montana State Hospital comply with the procedure established by 53-21-111 and 53-1-203, MCA, to ensure that persons are not admitted to MSH if adequate treatment is available to them in the mental health region, and to establish a procedure whereby persons may be refused admission if the requirements of 53-21-111 and 53-1-203, MCA are not met.</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 2/28/1986 · AUTH: 53-21-111, 53-1-203, MCA; IMP: 53-21-111, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-302">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.302</div>
+          <div class="arm-title">Definitions</div>
+        </div>
+        <div class="arm-body">
+          <p>As used in this subchapter:</p>
+          <div class="subsection" style="margin-top:10px;"><p><span class="def-term">"Center"</span> means a comprehensive community mental health center as described in 53-21-201, MCA.</p></div>
+          <div class="subsection"><p><span class="def-term">"Director"</span> means the person appointed by a regional mental health corporation board to administer a comprehensive mental health center.</p></div>
+          <div class="subsection"><p><span class="def-term">"Designee"</span> means a person employed by the center, appointed by the director to act on the director's behalf for purposes of this subchapter.</p></div>
+          <div class="subsection"><p><span class="def-term">"Applicant"</span> means a person at least 18 years of age who is seeking voluntary admission to Montana State Hospital.</p></div>
+          <div class="subsection"><p><span class="def-term">"Community support program (CSP) employee"</span> means a center staff person whose primary work responsibilities involve the region's provision of support services — including but not limited to day treatment, case management, residential, and crisis services — to adults with severe disabling mental illness.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 7/17/1992 · AMD 1992 MAR p. 2287 · AUTH: 53-21-111, 53-1-203, MCA; IMP: 53-21-111, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-303">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.303 through 37.66.305</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-306">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.306</div>
+          <div class="arm-title">Screening Process</div>
+        </div>
+        <div class="arm-body">
+          <p>Before a person may be voluntarily admitted to MSH, the community mental health center serving the region where the applicant resides must screen the applicant and confirm that adequate evaluation and treatment are unavailable in the region. This screening process implements the statutory requirement in 53-21-111(2), MCA that a professional person must certify the applicant is suffering from a mental disorder and obtain confirmation from the department that regional facilities are unable to provide adequate evaluation and treatment.</p>
+          <div class="subsection" style="margin-top:10px;"><p>The center director or designee shall conduct a clinical assessment of the applicant.</p></div>
+          <div class="subsection"><p>If the center director or designee determines that the applicant meets the criteria for voluntary admission to MSH and that local alternatives are inadequate, the center shall contact MSH to arrange the admission and shall forward the required documentation.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 7/17/1992 · AUTH: 53-21-111, 53-1-203, MCA; IMP: 53-21-111, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-307">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.307 through 37.66.311</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-312">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.312</div>
+          <div class="arm-title">Parameters for Voluntary Admission to Montana State Hospital</div>
+        </div>
+        <div class="arm-body">
+          <div class="subsection"><p><span class="subsection-label">(1)</span>Voluntary admissions to Montana State Hospital will be appropriate only when MSH is the least restrictive and most appropriate placement available.</p></div>
+          <div class="subsection"><p><span class="subsection-label">(2)</span>MSH will be considered the least restrictive and most appropriate placement for an individual who:</p></div>
+          <div class="subsection"><p><span class="subsection-label">(a)</span>Is violent and assaultive as a result of mental illness and is unable to be served in local inpatient facilities;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(b)</span>Is so suicidal as to require 1:1 attention over extended periods of time and is unable to be served in mental health center programs or local inpatient facilities;</p></div>
+          <div class="subsection"><p><span class="subsection-label">(c)</span>Is so disorganized by mental illness that the individual is unable to appropriately care for a medical condition other than mental illness, which places the individual in a life-threatening situation; or</p></div>
+          <div class="subsection"><p><span class="subsection-label">(d)</span>Is suffering from an acute exacerbation of mental illness which renders the individual unable, even with intensive supports, to maintain a level of functioning sufficiently high to allow the individual to remain in the community, and which would predictably require more than 14 days of inpatient care to stabilize.</p></div>
+          <div class="subsection"><p><span class="subsection-label">(3)</span>All community options — including but not limited to case management, crisis response, and local inpatient care — must be considered and ruled out before an admission to MSH is approved.</p></div>
+          <div class="subsection"><p><span class="subsection-label">(4)</span>Symptoms or behavior related to or resulting from certain conditions — including but not limited to intellectual disability, traumatic brain injury, and alcohol/drug dependency — shall not alone constitute the basis for a voluntary admission to Montana State Hospital.</p></div>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 7/17/1992 · AUTH: 53-21-111, MCA; IMP: 53-21-111, MCA</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-313">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.313 through 37.66.315</div>
+          <div class="arm-title">Reserved</div>
+        </div>
+        <div class="arm-body">
+          <p style="color:var(--text-muted);font-style:italic;">Reserved.</p>
+        </div>
+      </div>
+
+      <div class="arm-rule" id="a-37-66-316">
+        <div class="arm-header">
+          <div class="arm-cite">ARM 37.66.316</div>
+          <div class="arm-title">Release of Confidential Records</div>
+        </div>
+        <div class="arm-body">
+          <p>The release of confidential records concerning persons admitted or seeking admission to MSH is governed by applicable state and federal law, including MCA § 53-21-166 (confidentiality of mental health records) and the federal Health Insurance Portability and Accountability Act (HIPAA). Records may be released only in accordance with the patient's written authorization or as otherwise expressly permitted by statute.</p>
+          <p style="font-size:12px;color:var(--text-muted);margin-top:10px;">Eff. 8/9/1996 · AUTH: 53-21-111, MCA; IMP: 53-21-111, MCA</p>
+        </div>
+      </div>
+
     </div>
 
   </div><!-- /content -->
